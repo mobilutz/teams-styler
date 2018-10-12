@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Teams Styles",
+  "version": "0.0.1",
+  "description": "This styles Microsoft Teams to make it more usable",
+
+  "content_scripts": [{
+    "matches": ["https://teams.microsoft.com/*"],
+    "css": ["styles.css"]
+  }]
+}

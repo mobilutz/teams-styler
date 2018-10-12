@@ -1,0 +1,87 @@
+.chrome .ts-message-list-container,
+.chrome virtual-repeat > .list-wrap > .item-wrap,
+.chrome .ts-add-message .ts-new-message,
+.chrome .message-list-common:not(.chat-style) .button-row,
+.chrome .message-list-common:not(.chat-style) .large-max-stage,
+.chrome .message-list-common:not(.chat-style) .message-list-common .button-row,
+.chrome .message-list-common:not(.chat-style) .message-pane .new-typing-indicator,
+.chrome .message-list-common:not(.chat-style) .middle-messages-context-stripe .ts-message-list-container,
+.chrome .message-list-common:not(.chat-style) .ts-add-message .ts-new-message,
+.chrome .message-list-common:not(.chat-style) .ts-message-list-container,
+.chrome .message-list-common:not(.chat-style) .ts-new-meetup-animated,
+.chrome .message-list-common:not(.chat-style) smart-reply .smart-replies-alignment,
+.chrome .message-list-common:not(.chat-style) virtual-repeat>.list-wrap>.item-wrap,
+.chrome .ts-add-message.is-not-chat .ts-new-message {
+  max-width: 100%;
+}
+.chrome .chat-list .cle-timestamp,
+.chrome .chat-list .cle-preview,
+.chrome .profile-img-parent img,
+.chrome .profile-img-parent-bot img,
+.chrome .chat-list .cle-avatar .left-rail-profile-bot-img {
+  display: none;
+}
+.chrome .chat-list .cle-avatar .ts-skype-status {
+  top: 0.4rem;
+  left: 0;
+}
+.chrome .chat-list .cle-title {
+  grid-row: 1/3;
+  margin-top: 0;
+}
+
+.chrome .chat-list .recipient-group-list-item,
+.chrome .chat-list .recipient-group-list-item a,
+.chrome .chat-list .chat-message-preview .left-rail-item-hover.menu-open,
+.chrome .chat-list .chat-message-preview .recipient-group-list-item a,
+.chrome .chat-list .left-rail-item-hover.menu-open {
+  height: 2.4rem;
+}
+.chrome .chat-list .recipient-group-list-item a.cle-item {
+  -ms-grid-rows: 1.2rem 1.2rem;
+  grid-template-rows: 1.2rem 1.2rem;
+  -ms-grid-columns: 1rem 1fr auto auto auto;
+  grid-template-columns: 1rem 1fr auto auto auto;
+}
+.chrome .chat-list .recipient-group-list-item a.cle-item.cle-no-preview:not(.cle-show-markers):not(.cle-active-call) {
+  -ms-grid-rows: 2.4rem;
+  grid-template-rows: 2.4rem;
+}
+
+@media (min-width: 1500px) {
+  .chrome .app-left-rail-width,
+  .chrome .app-rail-common > div,
+  .chrome .fullscreen-layout .ts-left-rail-wrapper,
+  .chrome .left-rail-item,
+  .chrome .ts-left-rail-wrapper {
+    width: 24rem;
+  }
+
+  .chrome .popover.leftrail-override-position {
+    left: 26rem!important;
+  }
+}
+@media (min-width: 1350px) {
+  .chrome .app-left-rail-width
+  .chrome .app-rail-common > div,
+  .chrome .fullscreen-layout .ts-left-rail-wrapper,
+  .chrome .left-rail-item,
+  .chrome .ts-left-rail-wrapper {
+    width: 24rem;
+  }
+
+  .chrome .popover.leftrail-override-position {
+    left: 26rem!important;
+  }
+}
+.chrome .app-left-rail-width
+.chrome .app-rail-common > div,
+.chrome .fullscreen-layout .ts-left-rail-wrapper,
+.chrome .left-rail-item,
+.chrome .ts-left-rail-wrapper {
+  width: 24rem;
+}
+
+.chrome .popover.leftrail-override-position {
+  left: 26rem!important;
+}
